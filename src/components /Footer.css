@@ -1,0 +1,139 @@
+.footer {
+    background-color: #6739B7;
+    color: white;
+    padding: 40px 50px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    margin-left: 40px;
+  }
+  
+  .footer-logo {
+    margin-bottom: 20px;
+  }
+  
+  .logo-img {
+    width: auto;
+    height: auto;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+  }
+  
+  .footer-section {
+    flex: 1; 
+    min-width: 200px;
+  }
+  
+  .footer-section h4 {
+    font-size: 25px;
+    margin-bottom: 30px;
+    font-weight: bold; 
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-section ul li {
+    margin: 15px 0;
+  }
+  
+  .footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  .footer-section ul li a:hover {
+    text-decoration: none;
+    color: #d4c1ff;
+  }
+  
+  .footer-section ul li span {
+    cursor: pointer;
+  }
+
+  .footer-section ul li span:hover {
+    color: #d4c1ff;
+  }
+
+  .contact-info p {
+    color: white;
+    margin: 15px 0;
+    font-size: 16px;
+  }
+  
+  .privacy-policy ul li {
+    margin: 15px 0;
+  }
+  
+  .input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .email-input {
+    flex: 1;
+    padding: 10px 10px 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+  
+  .email-input::placeholder {
+    position: absolute;
+    font-weight: bold; 
+    font-size : 16px;
+    color: #6739B7;
+  }
+  
+  .arrow-button {
+    position: absolute;
+    right: 10px; 
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: white; 
+    color: #6739B7;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .arrow-button:hover {
+    
+    transform: translateY(-50%) scale(1.1);
+  }
+
+  .social-icons {
+    display: flex;
+    gap : 20px;
+  }
+
+  .social-icons a {
+    color: white;
+    font-size: 24px;
+    transition: color 0.3s ease;
+  }
+
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  
